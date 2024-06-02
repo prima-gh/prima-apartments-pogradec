@@ -14,10 +14,10 @@
         "houseRules": "Guesthouse rules",
         "ruleReservations": "Feel free to book your stay for a minimum of 2 nights up to a cozy 3 months!",
         "ruleDiscount": "If you're planning to stay for 6 nights or more, we've got some fantastic special discounts waiting for you. Get in touch with us to learn all about these exclusive deals.", 
-        "rule1": "Check-in is from 14:00 until 21:00. In specific cases, please notify us in advance.",
-        "rule2": "Check-out is from 07:00 until 11:00. In specific cases, please notify us in advance.",
+        "rule1": "Check-in is from 14:00 until midnight. Check-in is contactless.",
+        "rule2": "Check-out by 11:00. Check-out is contactless.",
         "rule3": "Smoking is only allowed on the balcony.",
-        "rule4": "Payment should be made upon key handover. We accept ALL, EURO, or DOLLAR.",
+        "rule4": "Payment can be made via bank (BKT), Paypal, or cash. Contact us for more details.",
         "rule5": "During check-out or when leaving our place, please put the key in the dedicated spot, and simply close the door after ensuring you haven't forgotten any personal belongings.",
         "distance": "Distance to key places"
     },

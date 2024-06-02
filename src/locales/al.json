@@ -14,10 +14,10 @@
         "houseRules": "Rregullat e Apartamentit",
         "ruleReservations": "Ju mund të rezervoni qëndrimin tuaj për minimumi 2 netë deri në 3 muaj!",
         "ruleDiscount": "Nëse dëshironi të qëndroni për 6 netë ose më shumë, ne ofrojmë gjithmonë oferta speciale. Na kontaktoni për të mësuar më shumë rreth këtyre ofertave ekskluzive.",
-        "rule1": "Check-in bëhet nga ora 14:00 deri në orën 21:00. Në raste specifike na njoftoni paraprakisht.",
-        "rule2": "Check-out bëhet nga ora 07:00 deri në orën 11:00. Në raste specifike na njoftoni paraprakisht.",
+        "rule1": "Check-in nga ora 14:00 deri në mesnatë. Check-in pa kontakt fizik.",
+        "rule2": "Check-out deri në orën 11:00. Check-out pa kontakt fizik.",
         "rule3": "Duhani lejohet vetëm në ballkon.",
-        "rule4": "Pagesa duhet të bëhet në momentin e dorëzimit të çelësave. Pranojmë LEK, EURO ose DOLLAR.",
+        "rule4": "Pagesa mund të bëhet me bankë (BKT), Paypal apo dorazi (cash). Na kontaktoni për më tepër detaje.",
         "rule5": "Gjatë check-out apo lënies të ambjenteve tona, çelësin ju lutem ta vendosni tek vendi i dedikuar, dhe thjesht tërhiqeni derën pasi të jeni siguruar që nuk keni harruar ndonjë send personal.",
         "distance": "Distanca nga pikat e rëndësishme"
     },
