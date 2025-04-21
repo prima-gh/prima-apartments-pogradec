@@ -24,12 +24,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 :root {
   /* Color variables */
-  --light-grayish-orange: #FAEDCD;
-  --light-grayish-yellow: #FEFAE0;
-  --light-grayish-green: #E9EDC9;
-  --grayish-yellow: #CCD5AE;
-  --dark-grayish-cyan: #94AF9F;
-  --very-dark-desaturated-green: #0A4D68;
+  --light-grayish-orange: #FAEDdf;
+  --light-grayish-yellow: #FEFAEA;
+  --light-grayish-green: #E9EDF7;
+  --grayish-yellow: #CCD996;
+  --dark-grayish-cyan: #94AFDF;
+  --very-dark-desaturated-green: #0A4D98;
 
   /* Font-size variables */
 

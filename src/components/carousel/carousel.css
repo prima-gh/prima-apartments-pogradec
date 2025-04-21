@@ -1,6 +1,6 @@
 .carousel-section {
   width: 100%;
-  height: 90vh;
+  height:90vh;
 }
 
 /* Styles for the container */
@@ -16,8 +16,8 @@
 
 @media screen and (max-width: 767px) {
   .carousel-image-container {
-    width: 480px; /* Full width */
-    height: 640px; /* Adjust height based on content */
+    width: 480px;
+    height: 640px;
   }
 
   .carousel-section {
@@ -27,11 +27,52 @@
 
 @media screen and (max-width: 480px) {
   .carousel-image-container {
-    width: 333px; /* Full width */
-    height: 444px; /* Adjust height based on content */
+    width: 333px;
+    height: 444px;
   }
 
   .carousel-section {
     height: 446px;
   }
+}
+
+.apartment-carousel {
+    margin: 2px 0;
+}
+
+/* Antd Tabs customization */
+.ant-tabs-nav {
+    margin-bottom: 30px;
+}
+
+.ant-tabs-tab {
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+.ant-tabs-tab-active {
+    font-weight: bold;
+}
+
+.tab-content {
+    transition: opacity 0.3s ease-in-out;
+    min-height: 50vh;
+    position: relative;
+}
+
+.spinner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/* Spinner customization */
+.ant-spin {
+    color: #1890ff;
+}
+
+.ant-spin-dot-item {
+    background-color: #1890ff;
 }
