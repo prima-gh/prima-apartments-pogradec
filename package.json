@@ -1,5 +1,5 @@
 {
-  "name": "prima-guesthouse-pogradec",
+  "name": "prima-apartments-pogradec",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0"
   },
-  "homepage": "https://prima-gh.github.io/prima-guesthouse-pogradec/"
+  "homepage": "https://prima-gh.github.io/prima-apartments-pogradec/"
 }
