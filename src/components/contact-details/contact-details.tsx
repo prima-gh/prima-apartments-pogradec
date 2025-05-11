@@ -9,7 +9,6 @@ const Phone = require('../../assets/icons/phone.png');
 const Wap = require('../../assets/icons/wap.png');
 const Maps = require('../../assets/icons/maps.png');
 const Booking = require('../../assets/icons/booking.png');
-const AirbnbPrima2 = require('../../assets/icons/airbnb.png');
 
 const ContactDetailsComponent = () => {
   const { t } = useTranslation();
