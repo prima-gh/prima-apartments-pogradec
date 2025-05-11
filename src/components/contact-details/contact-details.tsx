@@ -9,6 +9,7 @@ const Phone = require('../../assets/icons/phone.png');
 const Wap = require('../../assets/icons/wap.png');
 const Maps = require('../../assets/icons/maps.png');
 const Booking = require('../../assets/icons/booking.png');
+const AirbnbPrima2 = require('../../assets/icons/airbnb.png');
 
 const ContactDetailsComponent = () => {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ const ContactDetailsComponent = () => {
   }
 
   const navigateToInsta = () => {
-    window.open("https://instagram.com/prima.guesthouse.pg?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D", "_blank");
+    window.open("https://instagram.com/prima.apartments.pogradec", "_blank");
   };
 
   const navigateToMaps = () => {
@@ -38,6 +39,14 @@ const ContactDetailsComponent = () => {
 
   const navigateToBooking = () => {
     window.open("https://www.booking.com/Share-8pO95x", "_blank");
+  }
+
+  const navigateToPrima1Airbnb = () => {
+    window.open("https://www.airbnb.com/rooms/937043759409145029?check_in=2025-05-23&check_out=2025-05-25&guests=2&adults=2&s=67&unique_share_id=97a809e5-ff1f-49a6-9c3c-50f12d35e63e", "_blank");
+  }
+
+  const navigateToPrima2Airbnb = () => {
+    window.open("https://www.airbnb.com/rooms/1406434639380725200?check_in=2025-05-23&check_out=2025-05-25&guests=2&adults=2&s=67&unique_share_id=19d27e2b-c4fb-4d95-aaf7-10dc935f5e58", "_blank");
   }
 
   return (
@@ -59,21 +68,21 @@ const ContactDetailsComponent = () => {
         <div onClick={navigateToBooking} style={{ cursor: "pointer", marginRight: 15 }}>
           <Tooltip title={t('contactDetails.visitBooking')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>
             <img src={Booking} height={32} width={35} alt="Booking" />
-            <p style={{ marginTop: 2, color: 'var(--very-dark-desaturated-green)' }}>Prima Guesthouse</p>
+            <p style={{ marginTop: 2, color: 'var(--very-dark-desaturated-green)' }}>Booking</p>
           </Tooltip>
         </div>
 
         <div onClick={navigateToMaps} style={{ cursor: "pointer", marginRight: 15 }}>
           <Tooltip title={t('contactDetails.visitMaps')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>
             <img src={Maps} height={28} width={28} alt="Maps" />
-            <p style={{ marginTop: 5, color: 'var(--very-dark-desaturated-green)' }}>Prima Guesthouse</p>
+            <p style={{ marginTop: 5, color: 'var(--very-dark-desaturated-green)' }}>Google Maps</p>
           </Tooltip>
         </div>
         
         <div onClick={navigateToInsta} style={{ cursor: "pointer" }} >
           <Tooltip title={t('contactDetails.visitInsta')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>
             <img src={Insta} height={28} width={28} alt="Insta" />
-            <p style={{ marginTop: 5, color: 'var(--very-dark-desaturated-green)' }}>prima.guesthouse.pg</p>
+            <p style={{ marginTop: 5, color: 'var(--very-dark-desaturated-green)' }}>Instagram</p>
           </Tooltip>
         </div>
       </div>
