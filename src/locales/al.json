@@ -4,18 +4,18 @@
     },
     "guesthouseInfo": {
         "locationTitle": "Ku ndodhemi?",
-        "locationDetails": "Dy apartamente të reh në zemër të Pogradecit, në zonë të qetë afër dyqaneve, marketit dhe kishës ortodokse. Janë rreth pesë minuta ecje larg njëra-tjetrës—praktike për miq ose familje që duan të jenë njëri pranë tjetrit, por secili të ketë privatësinë e vet. Liqeni i Ohrit arrin me dy–tre minuta në këmbë: për shëtitje në buzë të ujit, një freskim të shpejtë apo thjesht një kafe me pamje. Edhe për në qendër të qytetit, në plazh apo te stacioni i autobusit nuk është larg. Sikur të vini për pak netë, sikur të qëndroni javë apo deri në tre muaj, nga dita e parë do të ndiheni të mirëpritur dhe të rehatshëm.",
+        "locationDetails": "Dy apartamente, të dekoruar me përkujdesje, në zemër të Pogradecit, në zonë të qetë afër dyqaneve, marketeve dhe kishës ortodokse. Janë rreth pesë minuta ecje larg njëra-tjetrës, praktike për miq ose familje që duan të jenë njëri pranë tjetrit, por secili të ketë privatësinë e vet. Liqeni i Ohrit vetëm në dy–tre minuta në këmbë: për shëtitje, një freskim të shpejtë apo thjesht një kafe me pamje mbreslënëse. Edhe për në qendër të qytetit, në plazh apo te stacioni i autobusit nuk është aspak larg. Sikur të vini për pak netë, sikur të qëndroni javë apo deri në tre muaj, nga dita e parë do të ndiheni të mirëpritur dhe si në shtëpi.",
         "facilitiesTitle": "Si janë të pajisur apartamentet",
-        "facilitiesDetails": "Secili apartament është menduar që të jetoni rehat dhe pa halle: kuzhinë e plotë, ajër i kondicionuar në dhomën e ndenjes dhe në atë të gjumit, televizor, internet Wi-Fi stabil dhe banjë me lavatriçe. Gjithashtu peshqirë të pastër, ballkon nga perëndimi për të ndjekur perëndimin mbi liqen dhe dritare që e mbushin me dritë ambientin—vendi mbetet i ajrosur dhe i qetë, për disa ditë apo për qëndrime më të gjata.",
+        "facilitiesDetails": "Secili apartament është menduar që të jetohet sa më rehat, për sa më shumë kohë. Kuzhinë e kompletuar, ajër i kondicionuar në të gjitha ambjentet, televizor, internet Wi-Fi stabil dhe tualeti me lavatriçe. Gjithashtu peshqirë të pastër, ballkon me pamje mbreslënëse, dhe dritare që e mbushin me dritë ambientin—vendi mbetet i ajrosur dhe i qetë.",
         "preferedVisitorsTitle": "Kush gjen vendin e vet tek ne?",
-        "preferedVisitorsDetails": "Prima Apartments është ambient i ngrohtë për çifte, familje, ata që udhëtojnë vetë dhe për grupet e miqve, pa paragjykime. Ka njerëz që na zgjedhin për pushim të shkurtër; të tjerë që mbeten më gjatë—javë apo muaj—për të çlodhur vërtet pranë liqenit dhe për të njohur Pogradecin me qetësi. Edhe kur bie temperatura, drita në ambiente dhe komoditeti i brendshëm e bëjnë qëndrimin të këndshëm kur kërkoni një ndalesë nga rutina e përditshme."
+        "preferedVisitorsDetails": "Prima Apartments është ambienti ideal për çifte, familje, apo për ata që udhëtojnë vetë dhe për grupet e miqve. Ka njerëz që na zgjedhin për pushim të shkurtër; të tjerë që mbeten më gjatë—javë apo muaj—për tu relaksuar vërtet pranë liqenit dhe për të njohur Pogradecin me qetësinë e tij karakteristike. Edhe kur stinët e ftohta mbërrijnë, drita në ambiente dhe komoditeti i brendshëm e bëjnë qëndrimin të këndshëm kur kërkoni një shkëputje nga rutina e përditshme."
     },
     "houseRules": {
-        "houseRules": "Rregulla shtëpie",
+        "houseRules": "Rregullat e shtëpisë",
         "ruleReservations": "Nga 2 netë deri në rreth 3 muaj. Pyetni për çmime më të mira prej 6+ netësh.",
-        "rule1": "Hyrje nga ora 14:00, dalje deri në 11:00. Hyrje dhe dalje pa takim fizik.",
-        "rule2": "Duhani vetëm në ballkon.",
-        "rule3": "Pagesë me transfer bankar (BKT), PayPal apo cash—e përcaktojmë kur rezervoni.",
+        "rule1": "Hyrje nga ora 14:30, dalje deri në 10:00. Hyrje dhe dalje pa takim fizik (contactless).",
+        "rule2": "Duhani lejohet vetëm në ballkon.",
+        "rule3": "Pagesë me transfertë bankare (BKT), PayPal apo cash.",
         "distance": "Distanca nga Pogradeci"
     },
     "contactDetails": {
@@ -23,15 +23,14 @@
         "whatsapp": "Na kontaktoni përmes WhatsApp",
         "visitInsta": "Na vizitoni në Instagram",
         "visitBooking": "Na vizitoni në Booking",
-        "visitAirbnbPrima1": "Hap Prima 1 në Airbnb",
-        "visitAirbnbPrima2": "Hap Prima 2 në Airbnb",
+        "visitAirbnbPrima1": "Vizitoni Prima 1 në Airbnb",
+        "visitAirbnbPrima2": "Vizitoni Prima 2 në Airbnb",
         "visitMaps": "Na vizitoni në Google Maps"
     },
     "carousel": {
         "sectionHeading": "Galeria fotografike",
         "tabPrima1": "Prima 1",
-        "tabPrima2": "Prima 2",
-        "keyboardRegionLabel": "Slideshow fotosh. Fokusoni këtu dhe përdorni shigjetat për të ndërruar foton."
+        "tabPrima2": "Prima 2"
     },
     "visitorReviews": {
         "sectionTitle": "Çfarë thonë vizitorët tanë për ne!"

@@ -3,19 +3,19 @@
       "welcome": "Prima Apartments"
     },
     "guesthouseInfo": {
-        "locationTitle": "Wo können Sie uns finden?",
-        "locationDetails": "Wir beherbergen Sie in zwei gemütlichen Apartments im Herzen von Pogradec—nahe Geschäften, Markt und orthodoxer Kirche. Die beiden liegen nur etwa fünf Gehminuten voneinander entfernt: perfekt, wenn Freunde oder Familie in der Nähe wohnen und trotzdem jeder sein eigenes Zuhause hat. Bis zum See sind es nur zwei bis drei Minuten zu Fuß: ideal für einen Morgenschwumm, einen Spaziergang am Abend oder einfach zum Genießen der Aussicht. Innenstadt, Strand und Busbahnhof sind ebenfalls schnell erreichbar. Ob Kurztrip oder längerer Aufenthalt—von ein paar Nächten bis zu etwa drei Monaten—Sie haben von Tag eins eine herzliche Basis für Ihre Entdeckungstouren.",
-        "facilitiesTitle": "Das erwartet Sie in beiden Apartments",
-        "facilitiesDetails": "Jede Wohnung ist für entspanntes Wohnen eingerichtet: eine gut ausgestattete Küche, klimatisierte Wohn- und Schlafräume, ein schöner Fernseher, verlässliches WLAN und ein Badezimmer mit Waschmaschine. Frische Handtücher, ein Balkon nach Westen für den Sonnenuntergang und helle Fenster sorgen für eine offene, ruhige Atmosphäre—vom Wochenende bis zu mehreren Wochen Feriengefühl.",
-        "preferedVisitorsTitle": "Für wen ist Prima Apartments gemacht?",
-        "preferedVisitorsDetails": "Prima Apartments ist ein offenes, warmes Zuhause für Paare, Familien, Alleinreisende und Freundeskreise aus aller Welt. Gäste bleiben bei uns mal nur ein verlängertes Wochenende, mal mehrere Wochen oder auch einige Monate, wenn sie am See entspannen und Pogradec wirklich kennenlernen wollen. Im Winter sind unsere hellen Apartments besonders einladend, wenn Sie der Kälte eine ruhige Auszeit entgegensetzen möchten."
+        "locationTitle": "Wo sind wir?",
+        "locationDetails": "Zwei liebevoll eingerichtete Apartments im Herzen von Pogradec, in ruhiger Lage nahe Geschäften, Märkten und der orthodoxen Kirche. Sie liegen etwa fünf Gehminuten voneinander entfernt—praktisch für Freunde oder Familien, die in der Nähe wohnen möchten und trotzdem ihre Privatsphäre haben. Der Ohridsee ist nur zwei bis drei Minuten zu Fuß erreichen: zum Spazieren, für eine kurze Erfrischung oder einfach für einen Kaffee mit eindrucksvoller Aussicht. Zum Zentrum, zum Strand und zum Busbahnhof ist es ebenfalls nicht weit. Ob Sie nur ein paar Nächte bleiben oder mehrere Wochen bis zu etwa drei Monaten—vom ersten Tag an fühlen Sie sich willkommen wie zu Hause.",
+        "facilitiesTitle": "Wie die Apartments ausgestattet sind",
+        "facilitiesDetails": "Jedes Apartment ist darauf ausgelegt, dass Sie bequem leben können, solange Sie bleiben: eine komplett eingerichtete Küche, Klimaanlage in allen Räumen, Fernseher, stabiles WLAN und ein Badezimmer mit Waschmaschine. Außerdem gibt es frische Handtücher, einen Balkon mit großartigem Blick und Fenster, die den Raum mit Licht füllen—es bleibt luftig und ruhig.",
+        "preferedVisitorsTitle": "Wer sich bei uns wiederfindet",
+        "preferedVisitorsDetails": "Prima Apartments ist der ideale Rahmen für Paare, Familien, Alleinreisende und Freundeskreise. Manche Gäste kommen für ein kurzes Wochenende; andere bleiben länger—Wochen oder Monate—um am See wirklich abzuschalten und Pogradec in seinem ruhigen Rhythmus kennenzulernen. Auch in den kühleren Jahreszeiten sorgen Tageslicht und Komfort drinnen für einen angenehmen Aufenthalt, wenn Sie dem Alltag einmal entfliehen möchten."
     },
     "houseRules": {
         "houseRules": "Hausregeln",
         "ruleReservations": "Ab 2 Nächten bis etwa 3 Monate. Fragen Sie uns nach Konditionen ab 6 Nächten.",
-        "rule1": "Check-in ab 14:00, Check-out bis 11:00. An- und Abreise kontaktlos.",
+        "rule1": "Check-in ab 14:30, Check-out bis 10:00. An- und Abreise kontaktlos.",
         "rule2": "Rauchen nur auf dem Balkon.",
-        "rule3": "Zahlung per Überweisung (BKT), PayPal oder bar—Details bei der Buchung.",
+        "rule3": "Zahlung per Banküberweisung (BKT), PayPal oder bar.",
         "distance": "Entfernungen von Pogradec"
     },
     "contactDetails": {
@@ -23,17 +23,16 @@
         "whatsapp": "Kontaktieren Sie uns über WhatsApp",
         "visitInsta": "Besuchen Sie uns auf Instagram",
         "visitBooking": "Besuchen Sie uns auf Booking",
-        "visitAirbnbPrima1": "Prima 1 auf Airbnb öffnen",
-        "visitAirbnbPrima2": "Prima 2 auf Airbnb öffnen",
+        "visitAirbnbPrima1": "Prima 1 auf Airbnb besuchen",
+        "visitAirbnbPrima2": "Prima 2 auf Airbnb besuchen",
         "visitMaps": "Besuchen Sie uns auf Google Maps"
     },
     "carousel": {
         "sectionHeading": "Fotogalerie",
         "tabPrima1": "Prima 1",
-        "tabPrima2": "Prima 2",
-        "keyboardRegionLabel": "Foto-Slideshow. Fokus hier und Pfeiltasten zum Wechseln."
+        "tabPrima2": "Prima 2"
     },
     "visitorReviews": {
-        "sectionTitle": "Was sagen unsere Besucher über uns?"
+        "sectionTitle": "Was unsere Gäste über uns sagen!"
     }
 }
