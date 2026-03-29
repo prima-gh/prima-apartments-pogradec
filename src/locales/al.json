@@ -3,30 +3,35 @@
       "welcome": "Prima Apartments"
     },
     "guesthouseInfo": {
-        "locationTitle": "Ku mund të na gjeni?",
-        "locationDetails": "Ndodhemi fiks në zemër të Pogradecit, apartamenti jonë në katin e 5-të ofron akses të lehtë me ashensor. Pranë ndodhet një kishë ortodokse. Në të njëjtin pallat, ne katin 0, ndodhet një market. Pikat kryesore të qytetit arrihen brenda disa minutave: liqeni (3 minuta ecje, 270 m), plazhi (4 minuta ecje, 300 m), qëndra e qytetit (6 minuta ecje, 500 m) dhe stacioni i autobusit (4 minuta ecje, 400 m). Shijoni restorantet dhe baret, të gjitha në një distancë 3 deri në 10 minuta.",
-        "facilitiesTitle": "Çfarë ofrojmë për ju: Fasilitetet dhe Pajisjet",
-        "facilitiesDetails": "Zbuloni apartamentin tonë të pajisur plotësisht dhe të përshtatur vetëm për nevojat tuaja. Me një kuzhinë të kompletuar me të gjitha aksesorët, dhomë ndenjeje/fjetjeje me ajër të kondicionuar, TV cilësor 43 inç, Wi-Fi me shpejtësi të lartë dhe një banjë të kompletuar, po ashtu edhe me lavatriçe. Ju ofrojmë 2 peshqirë të pastër, një ballkon me pamje nga perëndimi për perëndime të paharrueshëm dhe një dritare të gjerë në dhomën e ndenjes për tu relaksuar në këtë hapësirë prej 52 metrash katrorë.",
-        "preferedVisitorsTitle": "Kush e preferon më së shumti Apartamentin tonë?",
-        "preferedVisitorsDetails": "Prima Apartments mirëpret çifte, familje, vizitorë single apo edhe miq/shokë. Përtej barrierave të gjinisë, kombësisë dhe fesë, ne ofrojmë një mirëseardhje për të gjithë. Ne gjithashtu ofrojmë një strehë ngrohtësie gjatë dimrit të Pogradecit. Prima Apartments është zgjedhja e preferuar për rezervime nga 4 deri në 15 ditë. Gjatë muajve të ftohtë si Nëntori, Dhjetori dhe Janari, apartamenti ynë i rrahur nga dielli shndërrohet në një vend relaksues, duke ofruar jo vetëm komoditet, por edhe një arratisje nga dimri."
+        "locationTitle": "Ku ndodhemi?",
+        "locationDetails": "Dy apartamente të reh në zemër të Pogradecit, në zonë të qetë afër dyqaneve, marketit dhe kishës ortodokse. Janë rreth pesë minuta ecje larg njëra-tjetrës—praktike për miq ose familje që duan të jenë njëri pranë tjetrit, por secili të ketë privatësinë e vet. Liqeni i Ohrit arrin me dy–tre minuta në këmbë: për shëtitje në buzë të ujit, një freskim të shpejtë apo thjesht një kafe me pamje. Edhe për në qendër të qytetit, në plazh apo te stacioni i autobusit nuk është larg. Sikur të vini për pak netë, sikur të qëndroni javë apo deri në tre muaj, nga dita e parë do të ndiheni të mirëpritur dhe të rehatshëm.",
+        "facilitiesTitle": "Si janë të pajisur apartamentet",
+        "facilitiesDetails": "Secili apartament është menduar që të jetoni rehat dhe pa halle: kuzhinë e plotë, ajër i kondicionuar në dhomën e ndenjes dhe në atë të gjumit, televizor, internet Wi-Fi stabil dhe banjë me lavatriçe. Gjithashtu peshqirë të pastër, ballkon nga perëndimi për të ndjekur perëndimin mbi liqen dhe dritare që e mbushin me dritë ambientin—vendi mbetet i ajrosur dhe i qetë, për disa ditë apo për qëndrime më të gjata.",
+        "preferedVisitorsTitle": "Kush gjen vendin e vet tek ne?",
+        "preferedVisitorsDetails": "Prima Apartments është ambient i ngrohtë për çifte, familje, ata që udhëtojnë vetë dhe për grupet e miqve, pa paragjykime. Ka njerëz që na zgjedhin për pushim të shkurtër; të tjerë që mbeten më gjatë—javë apo muaj—për të çlodhur vërtet pranë liqenit dhe për të njohur Pogradecin me qetësi. Edhe kur bie temperatura, drita në ambiente dhe komoditeti i brendshëm e bëjnë qëndrimin të këndshëm kur kërkoni një ndalesë nga rutina e përditshme."
     },
     "houseRules": {
-        "houseRules": "Rregullat e Apartamentit",
-        "ruleReservations": "Ju mund të rezervoni qëndrimin tuaj për minimumi 2 netë deri në 3 muaj!",
-        "ruleDiscount": "Nëse dëshironi të qëndroni për 6 netë ose më shumë, ne ofrojmë gjithmonë oferta speciale. Na kontaktoni për të mësuar më shumë rreth këtyre ofertave ekskluzive.",
-        "rule1": "Check-in nga ora 14:00 deri në mesnatë. Check-in pa kontakt fizik.",
-        "rule2": "Check-out deri në orën 11:00. Check-out pa kontakt fizik.",
-        "rule3": "Duhani lejohet vetëm në ballkon.",
-        "rule4": "Pagesa mund të bëhet me bankë (BKT), Paypal apo dorazi (cash). Na kontaktoni për më tepër detaje.",
-        "rule5": "Gjatë check-out apo lënies të ambjenteve tona, çelësin ju lutem ta vendosni tek vendi i dedikuar, dhe thjesht tërhiqeni derën pasi të jeni siguruar që nuk keni harruar ndonjë send personal.",
-        "distance": "Distanca nga pikat e rëndësishme"
+        "houseRules": "Rregulla shtëpie",
+        "ruleReservations": "Nga 2 netë deri në rreth 3 muaj. Pyetni për çmime më të mira prej 6+ netësh.",
+        "rule1": "Hyrje nga ora 14:00, dalje deri në 11:00. Hyrje dhe dalje pa takim fizik.",
+        "rule2": "Duhani vetëm në ballkon.",
+        "rule3": "Pagesë me transfer bankar (BKT), PayPal apo cash—e përcaktojmë kur rezervoni.",
+        "distance": "Distanca nga Pogradeci"
     },
     "contactDetails": {
         "phonecall": "Na telefononi",
         "whatsapp": "Na kontaktoni përmes WhatsApp",
         "visitInsta": "Na vizitoni në Instagram",
         "visitBooking": "Na vizitoni në Booking",
+        "visitAirbnbPrima1": "Hap Prima 1 në Airbnb",
+        "visitAirbnbPrima2": "Hap Prima 2 në Airbnb",
         "visitMaps": "Na vizitoni në Google Maps"
+    },
+    "carousel": {
+        "sectionHeading": "Galeria fotografike",
+        "tabPrima1": "Prima 1",
+        "tabPrima2": "Prima 2",
+        "keyboardRegionLabel": "Slideshow fotosh. Fokusoni këtu dhe përdorni shigjetat për të ndërruar foton."
     },
     "visitorReviews": {
         "sectionTitle": "Çfarë thonë vizitorët tanë për ne!"

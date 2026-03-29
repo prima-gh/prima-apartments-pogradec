@@ -3,30 +3,35 @@
       "welcome": "Prima Apartments"
     },
     "guesthouseInfo": {
-        "locationTitle": "Where You can find us?",
-        "locationDetails": "Located in the heart of Pogradec, our 5th-floor guesthouse offers easy access via elevator. Nearby is an Orthodox church. Downstairs is a market. You can reach the city's main points within minutes: the lake (3-minute walk, 270m), the beach (4-minute walk, 300m), downtown (6-minute walk, 500m), and the bus station (4-minute stroll, 400m). Enjoy dining and bars, all within a 3 to 10-minute walk.",
-        "facilitiesTitle": "What we offer: Amenities and Facilities",
-        "facilitiesDetails": "Discover our fully equipped apartment designed just for you, complete with a versatile kitchen, air-conditioned living/sleeping area, quality 43-inch TV, high-speed Wi-Fi, and a well-furnished bathroom with a washing machine. Enjoy fresh towels, a west-facing balcony for incredible sunsets, and a spacious living room window for relaxation in this 52-square-meter space.",
-        "preferedVisitorsTitle": "Who's Lovin' our Apartments the most?",
-        "preferedVisitorsDetails": "Prima Apartments is a warm place that welcomes couples, families, solo travelers, and friends with diverse backgrounds. Beyond barriers of gender, nationality, and religion, we extend a warm welcome for everyone. We are providing a haven of warmth during Pogradec's winters. Prima Apartments is the preferred choice for stays lasting from 4 to 15 days. During cold months like November, December, and January, our sunny apartment becomes a comforting retreat, offering not only convenience but also an escape from winter."
+        "locationTitle": "Where can you find us?",
+        "locationDetails": "We host two cosy apartments in the heart of Pogradec—close to shops, a market, and the Orthodox church. They're only about a five-minute walk apart, so friends or family can stay near each other yet enjoy their own space. The lake is just two to three minutes away on foot: easy for a morning dip, an evening stroll, or simply watching the water from town. Downtown, the beach, and the bus station are still only a short walk away. Whether you're planning a quick getaway or a longer stay—from a couple of nights up to around three months—you'll have a friendly base to explore from day one.",
+        "facilitiesTitle": "What you'll find in each apartment",
+        "facilitiesDetails": "Every apartment is set up for easy, comfortable living: a well-equipped kitchen, air-conditioned living and sleeping space, a quality TV, reliable Wi-Fi, and a bathroom with a washing machine. You'll have fresh towels, a west-facing balcony for golden-hour sunsets, and bright windows that make the place feel open and calm—ideal for anything from a weekend to several weeks away from home.",
+        "preferedVisitorsTitle": "Who loves staying with us?",
+        "preferedVisitorsDetails": "Prima Apartments is a warm, open-minded home for couples, families, solo travellers, and friends from all walks of life. Many guests come for a short break; others settle in for weeks—or even a few months—when they want to really unwind by the lake and get to know Pogradec. In winter, our light-filled apartments are especially inviting if you're after a peaceful escape from the cold."
     },
     "houseRules": {
-        "houseRules": "Apartment rules",
-        "ruleReservations": "Feel free to book your stay for a minimum of 2 nights up to a cozy 3 months!",
-        "ruleDiscount": "If you're planning to stay for 6 nights or more, we've got some fantastic special discounts waiting for you. Get in touch with us to learn all about these exclusive deals.", 
-        "rule1": "Check-in is from 14:00 until midnight. Check-in is contactless.",
-        "rule2": "Check-out by 11:00. Check-out is contactless.",
-        "rule3": "Smoking is only allowed on the balcony.",
-        "rule4": "Payment can be made via bank (BKT), Paypal, or cash. Contact us for more details.",
-        "rule5": "During check-out or when leaving our place, please put the key in the dedicated spot, and simply close the door after ensuring you haven't forgotten any personal belongings.",
-        "distance": "Distance to key places"
+        "houseRules": "House rules",
+        "ruleReservations": "From 2 nights up to about 3 months. Ask us about better rates for stays of 6+ nights.",
+        "rule1": "Check-in from 14:00, check-out by 11:00. Arrival and departure are contactless.",
+        "rule2": "Smoking on the balcony only.",
+        "rule3": "Pay by bank (BKT), PayPal, or cash—we’ll confirm when you book.",
+        "distance": "Distance from Pogradec"
     },
     "contactDetails": {
         "phonecall": "Give us a call",
         "whatsapp": "Contact us via WhatsApp",
         "visitInsta": "Visit us on Instagram",
         "visitBooking": "Visit us on Booking",
+        "visitAirbnbPrima1": "Open Prima 1 on Airbnb",
+        "visitAirbnbPrima2": "Open Prima 2 on Airbnb",
         "visitMaps": "Visit us on Google Maps"
+    },
+    "carousel": {
+        "sectionHeading": "Photo gallery",
+        "tabPrima1": "Prima 1",
+        "tabPrima2": "Prima 2",
+        "keyboardRegionLabel": "Photo slideshow. Focus this area and use arrow keys to change photos."
     },
     "visitorReviews": {
         "sectionTitle": "What are saying our visitors for us!"

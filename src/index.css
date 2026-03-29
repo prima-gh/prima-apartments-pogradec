@@ -1,37 +1,27 @@
-body {
-  margin: 0;
-  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-body::-webkit-scrollbar {
-  width: 8px;
-}
-
-body::-webkit-scrollbar-track {
-  background: var(--light-grayish-orange);
-}   
-
-body::-webkit-scrollbar-thumb {
-  background: var(--dark-grayish-cyan);
-  border-radius: 1px;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-  background: var(--dark-grayish-cyan);
-}
-
+/* Spring / Ohrid-lake–inspired palette: water teals, new leaf, soft sky */
 :root {
-  /* Color variables */
-  --light-grayish-orange: #FAEDCD;
-  --light-grayish-yellow: #FEFAE0;
-  --light-grayish-green: #E9EDC9;
-  --grayish-yellow: #CCD5AE;
-  --dark-grayish-cyan: #94AF9F;
-  --very-dark-desaturated-green: #0A4D68;
+  --color-ink: #1a3f44;
+  --color-primary: #15939e;
+  --color-primary-soft: #3dbfb8;
+  --color-accent: #e88873;
+  --color-accent-soft: #f2a999;
+  --color-lake-glass: #6ec9d2;
+  --color-surface: #f2faf7;
+  --color-surface-bloom: #e8f8f2;
+  --color-sky-wash: #def4f8;
+  --color-muted: #4d6e72;
+  --color-border: #a8ddd4;
+  --color-header: #e3f7f0;
+  --color-review: #dcf4ea;
+  --color-footer: #f0faf5;
 
-  /* Font-size variables */
+  /* Legacy names */
+  --very-dark-desaturated-green: var(--color-primary);
+  --light-grayish-yellow: var(--color-surface);
+  --grayish-yellow: var(--color-header);
+  --light-grayish-orange: #cfe8e0;
+  --light-grayish-green: var(--color-review);
+  --dark-grayish-cyan: var(--color-muted);
 
   --font-xs: 10px;
   --font-s: 12px;
@@ -40,4 +30,75 @@ body::-webkit-scrollbar-thumb:hover {
   --font-xl: 18px;
   --font-xxl: 20px;
   --font-xxxl: 24px;
+
+  --ease-out-spring: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-stagger-sm: 55ms;
+}
+
+@keyframes motionFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes motionSkyShift {
+  0%,
+  100% {
+    background-position: 0% 45%;
+  }
+  50% {
+    background-position: 100% 55%;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--light-grayish-orange);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--color-primary-soft);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-stagger-sm: 0ms;
+  }
+
+  .main-container {
+    animation: none !important;
+    background: var(--color-surface) !important;
+  }
+
+  .header-container,
+  .gh-info-container,
+  .accommodation-gallery-section,
+  .house-rules-root,
+  .visitor-review-section,
+  .footer-container {
+    animation: none !important;
+  }
 }

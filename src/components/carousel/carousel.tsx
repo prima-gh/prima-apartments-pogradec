@@ -1,121 +1,132 @@
-import { Carousel } from "antd";
-import React from "react";
+import { Carousel, Tabs } from "antd";
+import type { CarouselRef } from "antd/es/carousel";
+import type { TabsProps } from "antd";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { IImage } from "../../utils/interfaces";
-import './carousel.css'; 
+import { getCarouselImages } from "./carousel-images";
+import { AccommodationCarouselVariant } from "./carousel-types";
+import "./carousel.css";
 
+type CarouselPaneProps = {
+  variant: AccommodationCarouselVariant;
+  tabKey: string;
+  activeTabKey: string;
+};
 
-const image1 = require('../../assets/images/1.jpg');
-const image2 = require('../../assets/images/2.jpg');
-const image3 = require('../../assets/images/3.jpg');
-const image4 = require('../../assets/images/4.jpg');
-const image5 = require('../../assets/images/5.jpg');
-const image6 = require('../../assets/images/6.jpg');
-const image7 = require('../../assets/images/7.jpg');
-const image7_2 = require('../../assets/images/7-2.JPG');
-const image8 = require('../../assets/images/8.jpg');
-const image9 = require('../../assets/images/9.jpg');
-const image10 = require('../../assets/images/10.JPG');
-const image11 = require('../../assets/images/11.JPG');
-const image13 = require('../../assets/images/13.JPG');
-const image14 = require('../../assets/images/14.JPG');
-const image15 = require('../../assets/images/15.JPG');
-const image16 = require('../../assets/images/16.JPG');
-const image17 = require('../../assets/images/17.jpg');
-const image18 = require('../../assets/images/18.jpeg');
+const CarouselPane = ({ variant, tabKey, activeTabKey }: CarouselPaneProps) => {
+  const { t } = useTranslation();
+  const images: IImage[] = getCarouselImages(variant);
+  const carouselRef = useRef<CarouselRef>(null);    
+  const keyboardActive = activeTabKey === tabKey;
 
-const images: IImage[] = [
-    { 
-        url: image1,
-        label: '1'
-    },
-    { 
-        url: image2,
-        label: '2'
-    },
-    { 
-        url: image3,
-        label: '3'
-    },
-    { 
-        url: image4,
-        label: '4'
-    },
-    { 
-        url: image5,
-        label: '5'
-    },
-    { 
-        url: image6,
-        label: '6'
-    },
-    { 
-        url: image7,
-        label: '7'
-    },
-    { 
-        url: image7_2,
-        label: '7-2'
-    },
-    { 
-        url: image8,
-        label: '8'
-    },
-    { 
-        url: image9,
-        label: '9'
-    },
-    { 
-        url: image10,
-        label: '10'
-    },
-    { 
-        url: image11,
-        label: '11'
-    },
-    { 
-        url: image13,
-        label: '13'
-    },
-    { 
-        url: image14,
-        label: '14'
-    },
-    { 
-        url: image15,
-        label: '15'
-    },
-    { 
-        url: image16,
-        label: '16'
-    },
-    { 
-        url: image17,
-        label: '17'
-    },
-    { 
-        url: image18,
-        label: '18'
-    }    
-]
+  const onKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLDivElement>) => {
+      if (!keyboardActive) return;
+      const api = carouselRef.current;
+      if (!api) return;
 
-const CarouselComponent = () => {
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        api.prev();
+      } else if (e.key === "ArrowRight") {
+        e.preventDefault();
+        api.next();
+      } else if (e.key === "Home") {
+        e.preventDefault();
+        api.goTo(0);
+      } else if (e.key === "End") {
+        e.preventDefault();
+        api.goTo(Math.max(0, images.length - 1));
+      }
+    },
+    [keyboardActive, images.length]
+  );
+
   return (
-    <Carousel effect="fade">
-        {images &&
-            images.map(el => 
-                <div key={el.label} className="carousel-section">
-                    <img 
-                        className="carousel-image-container" 
-                        src={el.url} 
-                        height={794} 
-                        width={595} 
-                        alt={el.label} 
-                    />
-                </div>
-            )
-        }
-    </Carousel>
+    <div
+      className="carousel-pane"
+      data-carousel-tab={tabKey}
+      data-active={keyboardActive ? "true" : undefined}
+      tabIndex={keyboardActive ? 0 : -1}
+      role="region"
+      aria-label={t("carousel.keyboardRegionLabel")}
+      onKeyDown={onKeyDown}
+    >
+      <Carousel ref={carouselRef} effect="fade" className="accommodation-carousel-inner">
+        {images.map((el) => (
+          <div key={el.label} className="carousel-section">
+            <div className="carousel-slide-frame">
+              <img
+                className="carousel-image"
+                src={el.url}
+                alt={el.label}
+                decoding="async"
+                draggable={false}
+              />
+            </div>
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 };
 
-export default CarouselComponent;
+const AccommodationGallery = () => {
+  const { t } = useTranslation();
+  const [activeTabKey, setActiveTabKey] = useState("prima1");
+  const skipFocusOnTabMount = useRef(true);
+
+  useEffect(() => {
+    if (skipFocusOnTabMount.current) {
+      skipFocusOnTabMount.current = false;
+      return;
+    }
+    const node = document.querySelector<HTMLElement>(
+      `[data-carousel-tab="${activeTabKey}"]`
+    );
+    node?.focus({ preventScroll: true });
+  }, [activeTabKey]);
+
+  const items: TabsProps["items"] = useMemo(
+    () => [
+      {
+        key: "prima1",
+        label: t("carousel.tabPrima1"),
+        children: (
+          <CarouselPane variant="prima1" tabKey="prima1" activeTabKey={activeTabKey} />
+        ),
+      },
+      {
+        key: "prima2",
+        label: t("carousel.tabPrima2"),
+        children: (
+          <CarouselPane variant="prima2" tabKey="prima2" activeTabKey={activeTabKey} />
+        ),
+      },
+    ],
+    [t, activeTabKey]
+  );
+
+  return (
+    <section
+      className="accommodation-gallery-section"
+      aria-labelledby="gallery-section-title"
+    >
+      <h2 id="gallery-section-title" className="accommodation-gallery-section-title">
+        {t("carousel.sectionHeading")}
+      </h2>
+      <Tabs
+        className="accommodation-gallery-tabs"
+        activeKey={activeTabKey}
+        onChange={setActiveTabKey}
+        items={items}
+        centered
+        size="large"
+        destroyInactiveTabPane={false}
+      />
+    </section>
+  );
+};
+
+export default AccommodationGallery;

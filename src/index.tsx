@@ -29,7 +29,19 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <ConfigProvider locale={enUS}>
+    <ConfigProvider
+      locale={enUS}
+      theme={{
+        token: {
+          colorPrimary: "#15939e",
+          colorInfo: "#3dbfb8",
+          colorLink: "#117a84",
+          borderRadiusLG: 12,
+          fontFamily:
+            'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+        },
+      }}
+    >
       <App />
     </ConfigProvider>
   </React.StrictMode>

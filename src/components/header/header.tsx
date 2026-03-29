@@ -4,10 +4,10 @@ import { FloatButton } from 'antd';
 import { LanguageEnum } from '../../utils/enums';
 import './header.css';
 
-const AlFlag = require('../../assets/images/al-flag.png');
-const EnFlag = require('../../assets/images/en-flag.png');
-const DeFlag = require('../../assets/images/de-flag.png');
-const HomeIcon = require('../../assets/images/home-icon.png');
+const AlFlag = require('../../assets/icons/al-flag.png');
+const EnFlag = require('../../assets/icons/en-flag.png');
+const DeFlag = require('../../assets/icons/de-flag.png');
+const HomeIcon = require('../../assets/icons/home-icon.png');
 
 export const HeaderComponent: FC = () => {
   const [language, setLanguage] = useState<LanguageEnum>(LanguageEnum.EN)

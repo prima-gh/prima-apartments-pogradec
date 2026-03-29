@@ -3,6 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 20px; /* Add some spacing between cards */
+  animation: motionFadeUp 0.6s var(--ease-out-spring) both;
+  animation-delay: calc(var(--motion-stagger-sm) * 2);
 }
 
 @media screen and (max-width: 768px) {
@@ -29,32 +31,37 @@
 
 .gh-card {
   flex: 1;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  box-shadow: 0 6px 28px rgba(21, 147, 158, 0.1);
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
   padding: 30px;
   padding-top: 0px;
   margin: 10px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.38s var(--ease-out-spring),
+    box-shadow 0.38s var(--ease-out-spring),
+    border-color 0.28s ease;
 }
 
 .gh-card:hover {
-  transform: scale(1.03);
+  transform: translateY(-4px);
+  box-shadow: 0 14px 40px rgba(21, 147, 158, 0.16);
+  border-color: var(--color-primary-soft);
 }
 
 .pogradec {
-  background-image: url("../../assets/images/pogradec.png");
+  background-image: url("../../assets/icons/pogradec.png");
   background-size: cover;
   background-position: center;
 }
 
 .drilon {
-  background-image: url("../../assets/images/drilon.png");
+  background-image: url("../../assets/icons/drilon.png");
   background-size: cover;
   background-position: center;
 }
 
 .lake {
-  background-image: url("../../assets/images/lake.png");
+  background-image: url("../../assets/icons/lake.png");
   background-size: cover;
   background-position: center;
 }
@@ -71,6 +78,6 @@
 }
 
 .gh-card-content > h3 {
-  color: var(--very-dark-desaturated-green); 
-  opacity: 0.5;
+  color: var(--color-primary-soft);
+  opacity: 0.92;
 }

@@ -6,18 +6,15 @@ const HouseRulesComponent = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="section">
+    <div className="house-rules-root">
       <div className="container">
         <div className="column">
           <h4>{t('houseRules.houseRules')}</h4>
           <ul style={{ textAlign: "justify" }}>
             <li>{t('houseRules.ruleReservations')}</li>
-            <li>{t('houseRules.ruleDiscount')}</li>
             <li>{t('houseRules.rule1')}</li>
             <li>{t('houseRules.rule2')}</li>
             <li>{t('houseRules.rule3')}</li>
-            <li>{t('houseRules.rule4')}</li>
-            <li>{t('houseRules.rule5')}</li>
           </ul>
         </div>
         <div className="column">

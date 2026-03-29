@@ -2,5 +2,18 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: var(--light-grayish-yellow);
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+  overflow-x: clip;
+  min-height: 100vh;
+  background: linear-gradient(
+    152deg,
+    var(--color-surface) 0%,
+    var(--color-surface-bloom) 38%,
+    var(--color-sky-wash) 72%,
+    var(--color-surface) 100%
+  );
+  background-size: 240% 240%;
+  animation: motionSkyShift 20s ease-in-out infinite;
 }
