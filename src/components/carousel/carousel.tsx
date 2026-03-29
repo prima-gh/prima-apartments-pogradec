@@ -50,7 +50,6 @@ const CarouselPane = ({ variant, tabKey, activeTabKey }: CarouselPaneProps) => {
       data-active={keyboardActive ? "true" : undefined}
       tabIndex={keyboardActive ? 0 : -1}
       role="region"
-      aria-label={t("carousel.keyboardRegionLabel")}
       onKeyDown={onKeyDown}
     >
       <Carousel ref={carouselRef} effect="fade" className="accommodation-carousel-inner">
