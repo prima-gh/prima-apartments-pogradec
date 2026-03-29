@@ -3,19 +3,19 @@
       "welcome": "Prima Apartments"
     },
     "guesthouseInfo": {
-        "locationTitle": "Where can you find us?",
-        "locationDetails": "We host two cosy apartments in the heart of Pogradec—close to shops, a market, and the Orthodox church. They're only about a five-minute walk apart, so friends or family can stay near each other yet enjoy their own space. The lake is just two to three minutes away on foot: easy for a morning dip, an evening stroll, or simply watching the water from town. Downtown, the beach, and the bus station are still only a short walk away. Whether you're planning a quick getaway or a longer stay—from a couple of nights up to around three months—you'll have a friendly base to explore from day one.",
-        "facilitiesTitle": "What you'll find in each apartment",
-        "facilitiesDetails": "Every apartment is set up for easy, comfortable living: a well-equipped kitchen, air-conditioned living and sleeping space, a quality TV, reliable Wi-Fi, and a bathroom with a washing machine. You'll have fresh towels, a west-facing balcony for golden-hour sunsets, and bright windows that make the place feel open and calm—ideal for anything from a weekend to several weeks away from home.",
-        "preferedVisitorsTitle": "Who loves staying with us?",
-        "preferedVisitorsDetails": "Prima Apartments is a warm, open-minded home for couples, families, solo travellers, and friends from all walks of life. Many guests come for a short break; others settle in for weeks—or even a few months—when they want to really unwind by the lake and get to know Pogradec. In winter, our light-filled apartments are especially inviting if you're after a peaceful escape from the cold."
+        "locationTitle": "Where are we?",
+        "locationDetails": "Two carefully decorated apartments in the heart of Pogradec, in a quiet area close to shops, markets, and the Orthodox church. They're about a five-minute walk apart—handy for friends or families who want to be near each other while still having their own privacy. Lake Ohrid is only two to three minutes on foot: for walks, a quick dip, or simply a coffee with a memorable view. The town centre, the beach, and the bus station aren't far at all. Whether you come for a few nights or stay for weeks or up to three months, from day one you'll feel welcome and at home.",
+        "facilitiesTitle": "How the apartments are equipped",
+        "facilitiesDetails": "Each apartment is designed so you can live comfortably for as long as you stay: a fully fitted kitchen, air conditioning throughout, a TV, stable Wi-Fi, and a bathroom with a washing machine. You'll also have fresh towels, a balcony with a striking view, and windows that fill the space with light—the place stays airy and calm.",
+        "preferedVisitorsTitle": "Who finds their place with us?",
+        "preferedVisitorsDetails": "Prima Apartments is the ideal setting for couples, families, solo travellers, and groups of friends. Some guests choose us for a short break; others stay longer—weeks or months—to really relax by the lake and get to know Pogradec at its characteristically peaceful pace. Even when the cooler seasons arrive, the light indoors and the comfort inside make for a pleasant stay whenever you want a break from everyday routine."
     },
     "houseRules": {
         "houseRules": "House rules",
         "ruleReservations": "From 2 nights up to about 3 months. Ask us about better rates for stays of 6+ nights.",
-        "rule1": "Check-in from 14:00, check-out by 11:00. Arrival and departure are contactless.",
+        "rule1": "Check-in from 14:30, check-out by 10:00. Arrival and departure are contactless.",
         "rule2": "Smoking on the balcony only.",
-        "rule3": "Pay by bank (BKT), PayPal, or cash—we’ll confirm when you book.",
+        "rule3": "Payment by bank transfer (BKT), PayPal, or cash.",
         "distance": "Distance from Pogradec"
     },
     "contactDetails": {
@@ -23,17 +23,16 @@
         "whatsapp": "Contact us via WhatsApp",
         "visitInsta": "Visit us on Instagram",
         "visitBooking": "Visit us on Booking",
-        "visitAirbnbPrima1": "Open Prima 1 on Airbnb",
-        "visitAirbnbPrima2": "Open Prima 2 on Airbnb",
+        "visitAirbnbPrima1": "Visit Prima 1 on Airbnb",
+        "visitAirbnbPrima2": "Visit Prima 2 on Airbnb",
         "visitMaps": "Visit us on Google Maps"
     },
     "carousel": {
         "sectionHeading": "Photo gallery",
         "tabPrima1": "Prima 1",
-        "tabPrima2": "Prima 2",
-        "keyboardRegionLabel": "Photo slideshow. Focus this area and use arrow keys to change photos."
+        "tabPrima2": "Prima 2"
     },
     "visitorReviews": {
-        "sectionTitle": "What are saying our visitors for us!"
+        "sectionTitle": "What our visitors say about us!"
     }
 }
