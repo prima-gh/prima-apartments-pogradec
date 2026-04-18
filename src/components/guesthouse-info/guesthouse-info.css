@@ -3,8 +3,6 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 20px; /* Add some spacing between cards */
-  animation: motionFadeUp 0.6s var(--ease-out-spring) both;
-  animation-delay: calc(var(--motion-stagger-sm) * 2);
 }
 
 @media screen and (max-width: 768px) {
@@ -43,7 +41,6 @@
 }
 
 .gh-card:hover {
-  transform: translateY(-4px);
   box-shadow: 0 14px 40px rgba(21, 147, 158, 0.16);
   border-color: var(--color-primary-soft);
 }

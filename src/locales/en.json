@@ -1,4 +1,15 @@
 {
+    "hero": {
+        "slideshowLabel": "Featured photos",
+        "eyebrow": "Prima Apartments · Pogradec",
+        "title": "Lake Ohrid on your doorstep",
+        "subtitle": "Two calm, fully equipped apartments in the centre of Pogradec—minutes from the water, with the comfort of a longer stay in mind.",
+        "scrollToContact": "Contact & booking",
+        "prevSlide": "Previous photo",
+        "nextSlide": "Next photo",
+        "dotsLabel": "Choose a slide",
+        "goToSlide": "Go to slide {{n}}"
+    },
     "header": {
       "welcome": "Prima Apartments"
     },
@@ -12,11 +23,13 @@
     },
     "houseRules": {
         "houseRules": "House rules",
+        "panelRulesHint": "Good to know before you arrive",
+        "panelDistanceHint": "Approximate distances to nearby places",
         "ruleReservations": "From 2 nights up to about 3 months. Ask us about better rates for stays of 6+ nights.",
-        "rule1": "Check-in from 14:30, check-out by 10:00. Arrival and departure are contactless.",
-        "rule2": "Smoking on the balcony only.",
+        "rule1": "Check-in and check-out are contactless. Check-in and check-out times are flexible.",
+        "rule2": "Smoking inside the apartments is strictly forbidden. Smoking is allowed on the balcony only.",
         "rule3": "Payment by bank transfer (BKT), PayPal, or cash.",
-        "distance": "Distance from Pogradec"
+        "distance": "Important destinations from Pogradec"
     },
     "contactDetails": {
         "phonecall": "Give us a call",
@@ -27,12 +40,11 @@
         "visitAirbnbPrima2": "Visit Prima 2 on Airbnb",
         "visitMaps": "Visit us on Google Maps"
     },
-    "carousel": {
-        "sectionHeading": "Photo gallery",
-        "tabPrima1": "Prima 1",
-        "tabPrima2": "Prima 2"
-    },
     "visitorReviews": {
-        "sectionTitle": "What our visitors say about us!"
+        "sectionTitle": "What our visitors say about us!",
+        "prevReview": "Previous review",
+        "nextReview": "Next review",
+        "chooseReview": "Choose a review",
+        "goToReview": "Go to review {{n}}"
     }
 }
