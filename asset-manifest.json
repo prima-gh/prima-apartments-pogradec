@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prima-apartments-pogradec/static/css/main.004cb8f2.css",
-    "main.js": "/prima-apartments-pogradec/static/js/main.942ee18f.js",
+    "main.css": "/prima-apartments-pogradec/static/css/main.02c8afdc.css",
+    "main.js": "/prima-apartments-pogradec/static/js/main.95c82128.js",
     "static/media/99999.JPG": "/prima-apartments-pogradec/static/media/99999.fff982877864a98c58ee.JPG",
     "static/media/000111.JPG": "/prima-apartments-pogradec/static/media/000111.8fa12c0e42bd95b4bf99.JPG",
     "static/media/0000.JPG": "/prima-apartments-pogradec/static/media/0000.91037aee2bce2a6eeb07.JPG",
@@ -20,11 +20,11 @@
     "static/media/pogradec.png": "/prima-apartments-pogradec/static/media/pogradec.d3f746b6d5778ab6be5c.png",
     "static/media/lake.png": "/prima-apartments-pogradec/static/media/lake.aaf4dec5af252576824c.png",
     "index.html": "/prima-apartments-pogradec/index.html",
-    "main.004cb8f2.css.map": "/prima-apartments-pogradec/static/css/main.004cb8f2.css.map",
-    "main.942ee18f.js.map": "/prima-apartments-pogradec/static/js/main.942ee18f.js.map"
+    "main.02c8afdc.css.map": "/prima-apartments-pogradec/static/css/main.02c8afdc.css.map",
+    "main.95c82128.js.map": "/prima-apartments-pogradec/static/js/main.95c82128.js.map"
   },
   "entrypoints": [
-    "static/css/main.004cb8f2.css",
-    "static/js/main.942ee18f.js"
+    "static/css/main.02c8afdc.css",
+    "static/js/main.95c82128.js"
   ]
 }
