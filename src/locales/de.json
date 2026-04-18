@@ -1,6 +1,17 @@
 {
+    "hero": {
+        "slideshowLabel": "Ausgewählte Fotos",
+        "eyebrow": "Prima Apartments · Pogradec",
+        "title": "Der Ohridsee vor der Tür",
+        "subtitle": "Zwei ruhige, voll ausgestattete Apartments im Zentrum von Pogradec—nur wenige Minuten zum See, ideal auch für längere Aufenthalte.",
+        "scrollToContact": "Kontakt & Buchung",
+        "prevSlide": "Vorheriges Foto",
+        "nextSlide": "Nächstes Foto",
+        "dotsLabel": "Folie wählen",
+        "goToSlide": "Zu Folie {{n}}"
+    },
     "header": {
-      "welcome": "Prima Apartments"
+        "welcome": "Prima Apartments"
     },
     "guesthouseInfo": {
         "locationTitle": "Wo sind wir?",
@@ -12,11 +23,13 @@
     },
     "houseRules": {
         "houseRules": "Hausregeln",
+        "panelRulesHint": "Wissenswert vor Ihrer Anreise",
+        "panelDistanceHint": "Ungefähre Entfernungen zu Orten in der Umgebung",
         "ruleReservations": "Ab 2 Nächten bis etwa 3 Monate. Fragen Sie uns nach Konditionen ab 6 Nächten.",
-        "rule1": "Check-in ab 14:30, Check-out bis 10:00. An- und Abreise kontaktlos.",
-        "rule2": "Rauchen nur auf dem Balkon.",
+        "rule1": "Check-in und Check-out sind kontaktlos. Die Zeiten für Check-in und Check-out sind flexibel.",
+        "rule2": "Rauchen in den Apartments ist streng verboten. Erlaubt ist ausschließlich das Rauchen auf dem Balkon.",
         "rule3": "Zahlung per Banküberweisung (BKT), PayPal oder bar.",
-        "distance": "Entfernungen von Pogradec"
+        "distance": "Wichtige Ziele von Pogradec aus"
     },
     "contactDetails": {
         "phonecall": "Rufen Sie uns an",
@@ -27,12 +40,11 @@
         "visitAirbnbPrima2": "Prima 2 auf Airbnb besuchen",
         "visitMaps": "Besuchen Sie uns auf Google Maps"
     },
-    "carousel": {
-        "sectionHeading": "Fotogalerie",
-        "tabPrima1": "Prima 1",
-        "tabPrima2": "Prima 2"
-    },
     "visitorReviews": {
-        "sectionTitle": "Was unsere Gäste über uns sagen!"
+        "sectionTitle": "Was unsere Gäste über uns sagen!",
+        "prevReview": "Vorherige Bewertung",
+        "nextReview": "Nächste Bewertung",
+        "chooseReview": "Bewertung wählen",
+        "goToReview": "Zu Bewertung {{n}}"
     }
 }

@@ -93,11 +93,6 @@ body::-webkit-scrollbar-thumb:hover {
     background: var(--color-surface) !important;
   }
 
-  .header-container,
-  .gh-info-container,
-  .accommodation-gallery-section,
-  .house-rules-root,
-  .visitor-review-section,
   .footer-container {
     animation: none !important;
   }

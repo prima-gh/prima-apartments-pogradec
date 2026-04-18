@@ -59,7 +59,7 @@ const ContactDetailsComponent = () => {
   };
 
   return (
-    <div className="footer-container">
+    <div id="contact" className="footer-container">
       <div className="contact-section">
         <div onClick={callUs} style={{ cursor: "pointer", marginRight: 15 }}>
           <Tooltip title={t('contactDetails.phonecall')} placement="right" color="var(--very-dark-desaturated-green)" trigger={"hover"}>

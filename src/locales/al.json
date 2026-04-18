@@ -1,4 +1,15 @@
 {
+    "hero": {
+        "slideshowLabel": "Foto të zgjedhura",
+        "eyebrow": "Prima Apartments · Pogradec",
+        "title": "Liqeni i Ohrit në pragun tuaj",
+        "subtitle": "Dy apartamente të mobiluara plotësisht në qendër të Pogradecit — pak sekonda nga liqeni, të konceptuara edhe për qëndrime afatgjata.",
+        "scrollToContact": "Kontakt & rezervim",
+        "prevSlide": "Fotoja e mëparshme",
+        "nextSlide": "Fotoja tjetër",
+        "dotsLabel": "Zgjidh një slide",
+        "goToSlide": "Shko te slide-i {{n}}"
+    },
     "header": {
       "welcome": "Prima Apartments"
     },
@@ -12,11 +23,13 @@
     },
     "houseRules": {
         "houseRules": "Rregullat e shtëpisë",
-        "ruleReservations": "Nga 2 netë deri në rreth 3 muaj. Pyetni për çmime më të mira prej 6+ netësh.",
-        "rule1": "Hyrje nga ora 14:30, dalje deri në 10:00. Hyrje dhe dalje pa takim fizik (contactless).",
-        "rule2": "Duhani lejohet vetëm në ballkon.",
+        "panelRulesHint": "Ja çfarë vlen ta dini para se të vini",
+        "panelDistanceHint": "Distanca të përafërta për vende në afërsi",
+        "ruleReservations": "Nga 2 netë deri në rreth 3 muaj. Na kontaktoni për çmime më të mira prej 6+ netësh.",
+        "rule1": "Hyrja dhe dalja janë pa takim fizik (contactless). Ora e hyrjes dhe e daljes është fleksibile.",
+        "rule2": "Duhani brenda apartamenteve është rreptësisht i ndaluar. Duhani lejohet vetëm në ballkon.",
         "rule3": "Pagesë me transfertë bankare (BKT), PayPal apo cash.",
-        "distance": "Distanca nga Pogradeci"
+        "distance": "Destinacione të rëndësishme nga Pogradeci"
     },
     "contactDetails": {
         "phonecall": "Na telefononi",
@@ -27,13 +40,12 @@
         "visitAirbnbPrima2": "Vizitoni Prima 2 në Airbnb",
         "visitMaps": "Na vizitoni në Google Maps"
     },
-    "carousel": {
-        "sectionHeading": "Galeria fotografike",
-        "tabPrima1": "Prima 1",
-        "tabPrima2": "Prima 2"
-    },
     "visitorReviews": {
-        "sectionTitle": "Çfarë thonë vizitorët tanë për ne!"
+        "sectionTitle": "Çfarë thonë vizitorët tanë për ne!",
+        "prevReview": "Vlerësimi i mëparshëm",
+        "nextReview": "Vlerësimi tjetër",
+        "chooseReview": "Zgjidh një vlerësim",
+        "goToReview": "Shko te vlerësimi {{n}}"
     }
 
 }

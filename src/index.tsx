@@ -8,21 +8,27 @@ import { initReactI18next } from 'react-i18next';
 import en from './locales/en.json';
 import de from './locales/de.json';
 import al from './locales/al.json';
+import { getStoredLanguage, persistLanguage } from './i18n/language-storage';
 import './index.css';
 
-i18n
-  .use(initReactI18next)
-  .init({
-    resources: {
-      al: { translation: al },
-      en: { translation: en },
-      de: { translation: de },
-    },
-    lng: 'en', // Set the default language
-    interpolation: {
-      escapeValue: false,
-    },
-  });
+const initialLng = getStoredLanguage();
+
+i18n.use(initReactI18next).init({
+  resources: {
+    al: { translation: al },
+    en: { translation: en },
+    de: { translation: de },
+  },
+  lng: initialLng,
+  fallbackLng: 'al',
+  interpolation: {
+    escapeValue: false,
+  },
+});
+
+i18n.on('languageChanged', (lng) => {
+  persistLanguage(lng);
+});
   
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
