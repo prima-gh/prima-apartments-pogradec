@@ -19,10 +19,19 @@
   animation: motionSkyShift 20s ease-in-out infinite;
 }
 
-/* All main UI lives in a centered column at most 80% of the viewport width */
-.site-content {
+/* Full viewport width; sits above the centered main column */
+.site-header-full {
+  align-self: stretch;
   width: 100%;
-  max-width: 80%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* Main column: full width on phones, 70% centered from tablet up */
+.site-content {
+  width: 98%;
+  max-width: 98%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -31,4 +40,11 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+}
+
+@media screen and (min-width: 768px) {
+  .site-content {
+    width: 70%;
+    max-width: 70%;
+  }
 }

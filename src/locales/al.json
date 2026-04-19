@@ -3,32 +3,33 @@
         "slideshowLabel": "Foto të zgjedhura",
         "eyebrow": "Prima Apartments · Pogradec",
         "title": "Liqeni i Ohrit në pragun tuaj",
-        "subtitle": "Dy apartamente të mobiluara plotësisht në qendër të Pogradecit — pak sekonda nga liqeni, të konceptuara edhe për qëndrime afatgjata.",
+        "subtitle": "Dy apartamente të mobiluara deri në detaj, në zonën më të preferuar të Pogradecit — pak sekonda ecje nga liqeni, të konceptuara edhe për qëndrime afatgjata.",
         "scrollToContact": "Kontakt & rezervim",
         "prevSlide": "Fotoja e mëparshme",
         "nextSlide": "Fotoja tjetër",
-        "dotsLabel": "Zgjidh një slide",
-        "goToSlide": "Shko te slide-i {{n}}"
+        "dotsLabel": "Zgjidh foton",
+        "goToSlide": "Shko te fotoja {{n}}"
     },
     "header": {
       "welcome": "Prima Apartments"
     },
     "guesthouseInfo": {
+        "sectionLabel": "Rreth apartamenteve, arredimit të tyre dhe vizitorëve tanë",
         "locationTitle": "Ku ndodhemi?",
-        "locationDetails": "Dy apartamente, të dekoruar me përkujdesje, në zemër të Pogradecit, në zonë të qetë afër dyqaneve, marketeve dhe kishës ortodokse. Janë rreth pesë minuta ecje larg njëra-tjetrës, praktike për miq ose familje që duan të jenë njëri pranë tjetrit, por secili të ketë privatësinë e vet. Liqeni i Ohrit vetëm në dy–tre minuta në këmbë: për shëtitje, një freskim të shpejtë apo thjesht një kafe me pamje mbreslënëse. Edhe për në qendër të qytetit, në plazh apo te stacioni i autobusit nuk është aspak larg. Sikur të vini për pak netë, sikur të qëndroni javë apo deri në tre muaj, nga dita e parë do të ndiheni të mirëpritur dhe si në shtëpi.",
-        "facilitiesTitle": "Si janë të pajisur apartamentet",
-        "facilitiesDetails": "Secili apartament është menduar që të jetohet sa më rehat, për sa më shumë kohë. Kuzhinë e kompletuar, ajër i kondicionuar në të gjitha ambjentet, televizor, internet Wi-Fi stabil dhe tualeti me lavatriçe. Gjithashtu peshqirë të pastër, ballkon me pamje mbreslënëse, dhe dritare që e mbushin me dritë ambientin—vendi mbetet i ajrosur dhe i qetë.",
-        "preferedVisitorsTitle": "Kush gjen vendin e vet tek ne?",
-        "preferedVisitorsDetails": "Prima Apartments është ambienti ideal për çifte, familje, apo për ata që udhëtojnë vetë dhe për grupet e miqve. Ka njerëz që na zgjedhin për pushim të shkurtër; të tjerë që mbeten më gjatë—javë apo muaj—për tu relaksuar vërtet pranë liqenit dhe për të njohur Pogradecin me qetësinë e tij karakteristike. Edhe kur stinët e ftohta mbërrijnë, drita në ambiente dhe komoditeti i brendshëm e bëjnë qëndrimin të këndshëm kur kërkoni një shkëputje nga rutina e përditshme."
+        "locationDetails": "Dy apartamente, të dekoruar me përkujdesje, në zemër të Pogradecit, në zonë të qetë, afër të gjitha fasiliteteve, marketeve dhe kishës ortodokse. Dy apartamentet tanë janë rreth 5 minuta ecje larg njëri-tjetrit, ideale për miq ose familje që duan të jenë njëri pranë tjetrit, por secili të ketë privatësinë e vet. Liqeni i Ohrit vetëm në 2-3 minuta ecje, për një shëtitje, apo edhe një kafe me pamje mbreslënëse. Qëndra e qytetit, zona e plazheve apo stacioni i autobusit ndodhen fare pranë. Për një qëndrim për pak netë, apo deri në disa javë apo muaj, që nga dita e parë do të ndiheni të mirëpritur dhe si në shtëpi.",
+        "facilitiesTitle": "Arredimi",
+        "facilitiesDetails": "Secili apartament është projektuar për një komoditet maksimal. Ne ju ofrojmë: kuzhinë të kompletuar, ajrër të kondicionuar në të gjitha ambjentet, televizor, internet Wi-Fi dhe tualet me lavatriçe. Gjithashtu peshqirë dhe mbulesa fjetje, ballkon me pamje mbreslënëse, dhe dritare që i mbushin ambjentet tona plot me dritë natyrale. Cdo gjë e krijuar për komoditetin tuaj!",
+        "preferedVisitorsTitle": "Kush gjen vendin ideal tek ne?",
+        "preferedVisitorsDetails": "Prima Apartments është ambienti ideal për çifte, familje, apo për ata që udhëtojnë vetëm ose me grupe shoqërore. Disa nga vizitorët tanë na zgjedhin për pushim të shkurtër, disa të tjerë shijojnë disa javë apo muaj pranë ambienteve tona. Edhe kur ditët e ftohta mbërrijnë, drita natyrale në ambientet tona, si dhe komoditeti i ofruar, e bëjnë qëndrimin tuaj gjithashtu të këndshëm kur ju kërkoni një shkëputje nga rutina e përditshme."
     },
     "houseRules": {
-        "houseRules": "Rregullat e shtëpisë",
-        "panelRulesHint": "Ja çfarë vlen ta dini para se të vini",
+        "houseRules": "Rregullat e apartamenteve",
+        "panelRulesHint": "Ja çfarë vlen ta dini para se të mbërrini",
         "panelDistanceHint": "Distanca të përafërta për vende në afërsi",
-        "ruleReservations": "Nga 2 netë deri në rreth 3 muaj. Na kontaktoni për çmime më të mira prej 6+ netësh.",
-        "rule1": "Hyrja dhe dalja janë pa takim fizik (contactless). Ora e hyrjes dhe e daljes është fleksibile.",
-        "rule2": "Duhani brenda apartamenteve është rreptësisht i ndaluar. Duhani lejohet vetëm në ballkon.",
-        "rule3": "Pagesë me transfertë bankare (BKT), PayPal apo cash.",
+        "ruleReservations": "Duke filluar nga minimumi 2 netë deri në 6 muaj. Na kontaktoni për ofertat më të mira prej qëndrimesh nga 6+ netë.",
+        "rule1": "Hyrja dhe dalja janë pa kontakt fizik (contactless). Oraret e hyrjes dhe të daljes janë fleksibile.",
+        "rule2": "Duhani brënda ambienteve tona është rreptësisht i ndaluar. Duhani lejohet vetëm në ballkon.",
+        "rule3": "Pagesë me transfertë bankare (BKT), PayPal apo cash, në varësi të dëshirës suaj.",
         "distance": "Destinacione të rëndësishme nga Pogradeci"
     },
     "contactDetails": {

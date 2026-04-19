@@ -10,8 +10,8 @@ import VisitorReviewsComponent from './components/visitor-reviews/visitor-review
 export const App = () => {
   return (
     <div className="main-container">
+      <HeaderComponent />
       <div className="site-content">
-        <HeaderComponent />
         <HeroSlideshow />
         <GuesthouseInfoComponent />
         <VisitorReviewsComponent />

@@ -1,7 +1,6 @@
 .hero-slideshow {
   --hero-min-h: min(74vh, 620px);
   --hero-max-h: min(88vh, 860px);
-  --hero-mat-side: clamp(22px, 5.8vw, 84px);
 
   position: relative;
   width: 100%;
@@ -10,31 +9,6 @@
   overflow: hidden;
   isolation: isolate;
   color: #fff;
-}
-
-/* Thick side “mat” bars (above photo, under UI copy) */
-.hero-slideshow::before,
-.hero-slideshow::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: var(--hero-mat-side);
-  z-index: 2;
-  pointer-events: none;
-  background: linear-gradient(180deg, #f6fcf9 0%, #e8f5ef 50%, #dcece6 100%);
-}
-
-.hero-slideshow::before {
-  left: 0;
-  box-shadow: inset -8px 0 18px rgba(10, 36, 40, 0.14),
-    inset 0 0 0 1px rgba(21, 147, 158, 0.2);
-}
-
-.hero-slideshow::after {
-  right: 0;
-  box-shadow: inset 8px 0 18px rgba(10, 36, 40, 0.14),
-    inset 0 0 0 1px rgba(21, 147, 158, 0.2);
 }
 
 @media screen and (min-width: 900px) {
@@ -115,9 +89,9 @@
   min-height: var(--hero-min-h);
   max-height: var(--hero-max-h);
   padding: clamp(72px, 12vh, 120px)
-    max(16px, env(safe-area-inset-right), calc(var(--hero-mat-side) + 18px))
+    max(16px, env(safe-area-inset-right))
     max(20px, env(safe-area-inset-bottom))
-    max(16px, env(safe-area-inset-left), calc(var(--hero-mat-side) + 18px));
+    max(16px, env(safe-area-inset-left));
   box-sizing: border-box;
   text-align: left;
 }
@@ -268,7 +242,6 @@
   .hero-slideshow {
     --hero-min-h: min(72vh, 600px);
     --hero-max-h: none;
-    --hero-mat-side: clamp(16px, 4.5vw, 40px);
   }
 
   .hero-slideshow-inner {
