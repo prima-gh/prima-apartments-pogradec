@@ -1,12 +1,33 @@
+.gh-info-section {
+  align-self: stretch;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.gh-info-section-title {
+  margin: 0 0 1.1rem;
+  text-align: center;
+  font-size: clamp(var(--font-xl), 2.2vw, var(--font-xxxl));
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--color-primary-soft);
+  letter-spacing: 0.02em;
+}
+
 .gh-info-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px; /* Add some spacing between cards */
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
-  /* Styles for tablets and smaller */
   .gh-info-container {
     flex-direction: column;
   }
@@ -17,7 +38,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  /* Styles for mobile */
   .gh-info-container {
     flex-direction: column;
   }
@@ -28,53 +48,112 @@
 }
 
 .gh-card {
+  position: relative;
   flex: 1;
-  box-shadow: 0 6px 28px rgba(21, 147, 158, 0.1);
-  border-radius: 16px;
+  overflow: hidden;
+  isolation: isolate;
+  box-shadow: 0 6px 28px rgba(21, 147, 158, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  border-radius: 18px;
   border: 1px solid var(--color-border);
-  padding: 30px;
-  padding-top: 0px;
+  padding: 12px;
   margin: 10px;
   transition: transform 0.38s var(--ease-out-spring),
     box-shadow 0.38s var(--ease-out-spring),
     border-color 0.28s ease;
 }
 
+.gh-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: inset 0 0 48px rgba(21, 63, 68, 0.12);
+  z-index: 0;
+}
+
 .gh-card:hover {
-  box-shadow: 0 14px 40px rgba(21, 147, 158, 0.16);
+  box-shadow: 0 14px 44px rgba(21, 147, 158, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.45);
   border-color: var(--color-primary-soft);
 }
 
+/* Image + soft colour wash so art stays visible but text area stays calm */
 .pogradec {
-  background-image: url("../../assets/icons/pogradec.png");
-  background-size: cover;
-  background-position: center;
+  background-color: var(--color-surface-bloom);
+  background-image: linear-gradient(
+      155deg,
+      rgba(232, 248, 242, 0.2) 0%,
+      rgba(242, 250, 247, 0.35) 38%,
+      rgba(222, 244, 248, 0.55) 100%
+    ),
+    url("../../assets/icons/pogradec.png");
+  background-size: cover, cover;
+  background-position: center 28%, center;
 }
 
 .drilon {
-  background-image: url("../../assets/icons/drilon.png");
-  background-size: cover;
-  background-position: center;
+  background-color: #e5f5ef;
+  background-image: linear-gradient(
+      165deg,
+      rgba(220, 244, 234, 0.25) 0%,
+      rgba(242, 250, 247, 0.4) 50%,
+      rgba(232, 248, 242, 0.65) 100%
+    ),
+    url("../../assets/icons/drilon.png");
+  background-size: cover, cover;
+  background-position: center 32%, center;
 }
 
 .lake {
-  background-image: url("../../assets/icons/lake.png");
-  background-size: cover;
-  background-position: center;
+  background-color: var(--color-sky-wash);
+  background-image: linear-gradient(
+      175deg,
+      rgba(222, 244, 248, 0.35) 0%,
+      rgba(232, 248, 242, 0.3) 45%,
+      rgba(242, 250, 247, 0.7) 100%
+    ),
+    url("../../assets/icons/lake.png");
+  background-size: cover, cover;
+  background-position: center 30%, center;
 }
 
 .gh-card-content {
+  position: relative;
+  z-index: 1;
   text-align: center;
+  padding: clamp(1rem, 2.5vw, 1.35rem) clamp(0.85rem, 2vw, 1.15rem);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 24px rgba(21, 147, 158, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .gh-card-content > p {
-  text-align: center; 
-  font-size: var(--font-xl); 
-  font-weight: 500; 
-  color: var(--very-dark-desaturated-green);
+  text-align: center;
+  font-size: var(--font-xl);
+  font-weight: 500;
+  color: var(--color-ink);
+  margin: 0;
+  line-height: 1.55;
 }
 
 .gh-card-content > h3 {
-  color: var(--color-primary-soft);
-  opacity: 0.92;
+  margin: 0 0 0.65rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  opacity: 0.98;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .gh-card-content {
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
 }

@@ -54,7 +54,7 @@ export const HeaderComponent: FC = () => {
   }
 
   return (
-    <>
+    <div className="site-header-full">
       <motion.div
         className="header-container"
         initial={reduceMotion ? false : { opacity: 0, y: -10 }}
@@ -102,6 +102,6 @@ export const HeaderComponent: FC = () => {
         />     
       </FloatButton.Group>
       <FloatButton.BackTop style={{right: 75}} />
-    </>
+    </div>
   )
 }

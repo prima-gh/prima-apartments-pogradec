@@ -2,12 +2,12 @@ import { IImage } from "./interfaces";
 import { getApartmentImages } from "./apartment-images";
 
 /**
- * Curated mix for the landing hero (Kasa-style full-bleed slideshow).
- * Interleaves a few shots from each apartment so the hero feels varied without dozens of dots.
+ * Landing hero slideshow: all apartment photos, interleaved (Prima 1, Prima 2, …)
+ * so the hero alternates between the two units.
  */
 export function getHeroSlideshowImages(): IImage[] {
-  const prima1 = getApartmentImages("prima1").slice(0, 5);
-  const prima2 = getApartmentImages("prima2").slice(0, 5);
+  const prima1 = getApartmentImages("prima1");
+  const prima2 = getApartmentImages("prima2");
   const out: IImage[] = [];
   const len = Math.max(prima1.length, prima2.length);
   for (let i = 0; i < len; i += 1) {
